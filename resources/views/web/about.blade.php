@@ -46,7 +46,7 @@
                             <span class="title">about us</span>
                             <h2 class="subtitle">WE ARE TRANSPIX</h2>
                             <p>
-                                @if($about === null)
+                                @if($about !== null)
                                 {{$about->about}}
                                 @endif
                                 
