@@ -19,7 +19,7 @@ class CreateQuotesTable extends Migration
             $table->string('km_price');
             $table->string('kg');
             $table->string('kg_price');
-            $table->string('road');
+            $table->string('land');
             $table->string('air');
             $table->string('ocean');
             $table->timestamps();

@@ -71,6 +71,12 @@
                         <span class="menu-title">Calculator</span>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logout">
+                        <i class="mdi mdi-emoticon menu-icon"></i>
+                        <span class="menu-title">Logout</span>
+                    </a>
+                </li>
 
 
 
@@ -89,7 +95,7 @@
                         <span class="mdi mdi-menu"></span>
                     </button>
 
-                    <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1">Welcome back, Auth::user()->name</h4>
+                    <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1">Welcome back, {{Auth::user()->name}}</h4>
                     <ul class="navbar-nav navbar-nav-right">
                         <li class="nav-item">
                             <!-- display current time and date -->
@@ -277,8 +283,8 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-                                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard templates</a> from Bootstrapdash.com</span>
+                                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © Transpix</span>
+                                <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard templates</a> from Bootstrapdash.com</span> -->
                             </div>
                         </div>
                     </div>

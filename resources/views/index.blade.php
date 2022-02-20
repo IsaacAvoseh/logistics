@@ -70,7 +70,7 @@
                <h2 class="mb-lg-0 text-center text-lg-left">Reach your destination 100% safe & secure</h2>
             </div>
             <div class="col-lg-3 text-center text-lg-right">
-               <a href="contact.html" class="boxed-btn"><span>Contact Us</span></a>
+               <a href="/contact" class="boxed-btn"><span>Contact Us</span></a>
             </div>
          </div>
       </div>

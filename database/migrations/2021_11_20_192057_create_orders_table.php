@@ -25,6 +25,7 @@ class CreateOrdersTable extends Migration
             $table->string('amount');
             $table->string('carrier');
             $table->string('status');
+            $table->string('tracking_id');
             $table->timestamps();
         });
     }
