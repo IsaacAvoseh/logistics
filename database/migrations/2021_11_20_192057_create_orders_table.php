@@ -22,7 +22,7 @@ class CreateOrdersTable extends Migration
             $table->string('drop_address');
             $table->string('distance');
             $table->string('weight');
-            $table->string('type');
+            $table->string('amount');
             $table->string('carrier');
             $table->string('status');
             $table->timestamps();

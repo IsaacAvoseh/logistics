@@ -1,9 +1,4 @@
-Project 1 - Bootcamp
-
-Laravel Project 1: 
-
-Pick your pages from here.
-https://kreativdev.com/transpix/transpix/quote.html
+Laravel Project 
 
 Project Brief
 

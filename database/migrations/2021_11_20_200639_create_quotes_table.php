@@ -16,8 +16,10 @@ class CreateQuotesTable extends Migration
         Schema::create('quotes', function (Blueprint $table) {
             $table->id();
             $table->string('km');
+            $table->string('km_price');
             $table->string('kg');
-            $table->string('land');
+            $table->string('kg_price');
+            $table->string('road');
             $table->string('air');
             $table->string('ocean');
             $table->timestamps();
